@@ -1,3 +1,17 @@
 # Auto detect text files and perform LF normalization
 * text=auto
 /LICENSE filter=lfs diff=lfs merge=lfs -text
+*.gitignore filter=lfs diff=lfs merge=lfs -text
+*.yahoofantasy filter=lfs diff=lfs merge=lfs -text
+*.py filter=lfs diff=lfs merge=lfs -text
+*.yaml filter=lfs diff=lfs merge=lfs -text
+*.json filter=lfs diff=lfs merge=lfs -text
+*.pem filter=lfs diff=lfs merge=lfs -text
+*.yml filter=lfs diff=lfs merge=lfs -text
+*.backend filter=lfs diff=lfs merge=lfs -text
+*.development filter=lfs diff=lfs merge=lfs -text
+*.frontend filter=lfs diff=lfs merge=lfs -text
+*.html filter=lfs diff=lfs merge=lfs -text
+*.jsx filter=lfs diff=lfs merge=lfs -text
+*.js filter=lfs diff=lfs merge=lfs -text
+*.txt filter=lfs diff=lfs merge=lfs -text

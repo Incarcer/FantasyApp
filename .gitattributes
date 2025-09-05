@@ -1063,3 +1063,6 @@ size 582
 /venv/Scripts/yfa_init_oauth_env filter=lfs diff=lfs merge=lfs -text
 /venv/Scripts/yfa_league filter=lfs diff=lfs merge=lfs -text
 /venv/Scripts/yfa_team filter=lfs diff=lfs merge=lfs -text
+/api_server/cd filter=lfs diff=lfs merge=lfs -text
+/api_server/dir filter=lfs diff=lfs merge=lfs -text
+/api_server/python filter=lfs diff=lfs merge=lfs -text
